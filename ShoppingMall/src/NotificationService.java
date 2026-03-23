@@ -10,8 +10,8 @@ import java.time.temporal.ChronoUnit;
 
 public class NotificationService {
 
-    static final String ACCOUNT_SID = "AC2ce598bc6a25f4d9bf2ff1dca0787ad2";
-    static final String AUTH_TOKEN  = "3143be29c7973eaa2b3c15cff93a81f0";
+    static final String ACCOUNT_SID = "My_key_sid";
+    static final String AUTH_TOKEN  = "my_auth_token";
     static final String TWILIO_NUM  = "+12545034207";
 
     public static void sendSMS(String toPhone, String body) {
